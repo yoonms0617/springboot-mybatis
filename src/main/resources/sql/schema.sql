@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS USER;
+
+-- User Table
+CREATE TABLE USER (
+  user_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  user_name VARCHAR,
+  user_email VARCHAR
+);
